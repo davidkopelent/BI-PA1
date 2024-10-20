@@ -15,41 +15,6 @@ pořadí transakcí není správné (čísla dne v transakci netvoří rostoucí
 chybějící oddělovač (částka) v zadání transakce.
 Pokud program detekuje chybu, přestane se dotazovat na další vstupní hodnoty, vypíše chybové hlášení a ukončí se. Chybu je tedy potřeba detekovat okamžitě po načtení hodnoty (neodkládejte kontrolu vstupních údajů až za načtení celého vstupu). Chybové hlášení vypisujte na standardní výstup (nevypisujte jej na standardní chybový výstup).
 
-## Ukázka práce programu:
-Zadejte kreditni urok [%]:
-0.01
-Zadejte debetni urok [%]:
-0.1
-Zadejte transakce:
-0, 20000
-45, -5000
-100, 10000
-120, 0
-Zustatek: 25223.27
-
-
-Zadejte kreditni urok [%]:
-0.02
-Zadejte debetni urok [%]:
-0.4
-Zadejte transakce:
-10, 20000
-25, -15000
-45, -10000
-70, 5000
-100, 0
-Zustatek: -491.27
-Zadejte kreditni urok [%]:
-abcd
-Nespravny vstup.
-Zadejte kreditni urok [%]:
-0.02
-Zadejte debetni urok [%]:
-0.3
-Zadejte transakce:
-5, 2000
-0, 3000
-Nespravny vstup.
-Nápověda:
+## Nápověda:
 Ukázkové běhy zachycují očekávané výpisy Vašeho programu (tučné písmo) a vstupy zadané uživatelem (základní písmo). Zvýraznění tučným písmem je použité pouze zde na stránce zadání, aby byl výpis lépe čitelný. Váš program má za úkol pouze zobrazit text bez zvýrazňování (bez HTML markupu).
 Znak odřádkování (\n) je i za poslední řádkou výstupu (i za případným chybovým hlášením).
