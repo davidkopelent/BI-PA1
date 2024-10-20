@@ -26,6 +26,8 @@ Zadejte transakce:
 100, 10000
 120, 0
 Zustatek: 25223.27
+
+
 Zadejte kreditni urok [%]:
 0.02
 Zadejte debetni urok [%]:
